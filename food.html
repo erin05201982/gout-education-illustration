@@ -1,0 +1,128 @@
+<!doctype html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>③ 吃東西怎麼選？｜痛風衛教</title><style>
+:root{
+  --ink:#153d6a; --muted:#687482; --line:#eadfd2; --cream:#fffaf3;
+  --red:#d94338; --orange:#ef6841; --blue:#0b4f98;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:#fffaf3;color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+  line-height:1.5;
+}
+.wrap{max-width:720px;margin:auto;padding:14px 14px 34px}
+.hero{
+  background:linear-gradient(135deg,#f36a3e,#db3f46);color:white;
+  border-radius:24px;padding:18px 20px;
+}
+.hero h1{font-size:30px;margin:0;line-height:1.2}
+.hero p{font-size:18px;margin:6px 0 0}
+.grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px;
+}
+.tile{
+  background:white;border:1px solid var(--line);border-radius:20px;padding:9px;
+  text-decoration:none;color:var(--ink);min-height:205px;
+}
+.tile.water{border:2px solid #e75b52;background:#fff8f6}
+.tile img{
+  width:100%;height:118px;object-fit:contain;display:block;border-radius:14px;background:#fffdf9;
+}
+.tile b{display:block;text-align:center;font-size:21px;margin-top:7px}
+.tile small{display:block;text-align:center;color:var(--muted);font-size:15px}
+
+.page{
+  background:white;border:1px solid var(--line);border-radius:22px;padding:17px;
+}
+.page h1{font-size:28px;margin:0 0 10px}
+.heroicon{
+  width:100%;height:165px;object-fit:contain;display:block;
+  background:#fffdf9;border-radius:16px;margin:0 auto 10px;
+}
+.lead{font-size:20px}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.target{border-radius:16px;padding:13px;text-align:center;border:1px solid var(--line);background:#fffaf0}
+.target b{display:block;font-size:17px}
+.target strong{font-size:37px;display:block}
+.blue{background:#eef5fb}.pink{background:#fff0f0}.green{background:#eef8ed}
+.note{border-radius:15px;padding:13px;margin-top:12px;font-size:18px}
+.warn{background:#fff0ec;border:2px solid #e45b50;color:#a8322a}
+.info{background:#eef5fb;border:1px solid #c9ddec}
+.food{border-radius:15px;padding:13px;margin:10px 0;font-size:18px}
+.avoid{background:#fff0ed}.limit{background:#fff7e5}.choose{background:#eef8ed}
+ul{font-size:19px;padding-left:23px}li{margin:8px 0}
+.lifestyle{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.lifestyle div{background:#f6f8fa;border-radius:12px;padding:10px;text-align:center;font-size:16px}
+
+/* Prominent audio action, positioned immediately after title/illustration area */
+.audio-wrap{
+  display:flex;justify-content:center;margin:10px 0 16px;
+}
+.audio-image-btn{
+  border:0;background:transparent;padding:0;cursor:pointer;width:100%;
+  max-width:560px;border-radius:22px;
+}
+.audio-image-btn img{
+  width:100%;height:auto;display:block;border-radius:22px;
+}
+.audio-image-btn:focus-visible{outline:4px solid #f3c324;outline-offset:3px}
+.audio-hint{
+  text-align:center;font-size:16px;font-weight:700;color:#0b4f98;margin-top:-6px;margin-bottom:10px;
+}
+.nav{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:13px}
+.nav a{text-decoration:none;text-align:center;background:#173f6b;color:#fff;padding:11px 5px;border-radius:13px;font-weight:800}
+.nav .home{background:#ef6941}
+.status{font-size:14px;text-align:center;color:var(--muted);padding:7px}
+.tiny{font-size:13px;color:#7c858e;text-align:center}
+@media(min-width:650px){
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .tile img{height:135px}
+  .heroicon{height:190px}
+}
+</style></head><body>
+<main class="wrap">
+<section class="page">
+<img class="heroicon" src="assets/home_food.png" alt="③ 吃東西怎麼選？">
+<h1>③ 吃東西怎麼選？</h1>
+<div class="audio-wrap">
+<button class="audio-image-btn" data-speak="飲食記住三件事。內臟、濃肉湯、火鍋湯、酒類，特別是啤酒，以及大量海鮮要少吃或避免。紅肉、魚類和貝類要控制份量。蛋、牛奶乳製品、蔬菜和適量的飯可以選擇。" aria-label="點一下，聽醫師說">
+<img src="assets/audio_button.png" alt="點一下，聽醫師說">
+</button>
+</div>
+<div class="audio-hint">看到醫師＋喇叭，就可以點來聽</div>
+
+<div class="food avoid"><strong>🔴 少吃／避免：</strong><br>內臟類、濃肉湯或火鍋湯、酒類（特別是啤酒）、大量海鮮。</div>
+<div class="food limit"><strong>🟡 少一點、控制量：</strong><br>紅肉（牛、豬、羊）、魚類、貝類。</div>
+<div class="food choose"><strong>🟢 可以吃、多選擇：</strong><br>蛋、牛奶與乳製品、蔬菜、適量的飯。</div>
+</section>
+<nav class="nav">
+<a href="pain.html">← 上一題</a><a class="home" href="index.html">⌂ 回首頁</a><a href="water.html">下一題 →</a>
+</nav>
+<div id="status" class="status">語音尚未播放</div>
+<p class="tiny">一般衛教資訊；實際治療、用藥與飲水量請依醫療團隊指示。</p>
+</main>
+<script>
+(()=>{
+  const s=document.getElementById('status');
+  const ok='speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
+  function voice(){
+    return speechSynthesis.getVoices().find(v=>/zh-TW/i.test(v.lang))
+      || speechSynthesis.getVoices().find(v=>/^zh/i.test(v.lang));
+  }
+  document.querySelectorAll('[data-speak]').forEach(b=>{
+    b.onclick=()=>{
+      if(!ok){ if(s) s.textContent='此裝置目前不支援語音朗讀'; return; }
+      speechSynthesis.cancel();
+      const u=new SpeechSynthesisUtterance(b.dataset.speak);
+      const v=voice(); if(v) u.voice=v;
+      u.lang='zh-TW'; u.rate=.86;
+      u.onstart=()=>{ if(s) s.textContent='🔊 正在播放…'; };
+      u.onend=()=>{ if(s) s.textContent='✓ 播放完成'; };
+      u.onerror=()=>{ if(s) s.textContent='語音播放失敗，請再試一次'; };
+      speechSynthesis.speak(u);
+    };
+  });
+})();
+</script>
+</body></html>
