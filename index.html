@@ -1,38 +1,40 @@
 <!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>痛風控制｜林祐賸醫師衛教</title><style>
-:root{--ink:#153d6a;--muted:#687482;--line:#eadfd2;--cream:#fffaf3;--red:#d94338;--orange:#ef6841;--blue:#0b4f98}
+:root{
+ --ink:#113d70;--muted:#637184;--line:#d9e4ef;--bg:#f7fbff;
+ --green:#176d45;--orange:#f26d21;--red:#d84335;--blue:#0f5aa6;
+}
 *{box-sizing:border-box}
-body{margin:0;background:#fffaf3;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.5}
-.wrap{max-width:720px;margin:auto;padding:12px 12px 30px}
-.hero{background:linear-gradient(135deg,#f36a3e,#db3f46);color:#fff;border-radius:23px;padding:17px 18px}
-.hero h1{font-size:29px;line-height:1.2;margin:0}.hero p{font-size:17px;margin:5px 0 0}
-.welcome{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:12px;margin-top:12px}
-.welcome img{width:82px;height:82px;object-fit:contain;flex:0 0 auto}.welcome b{font-size:20px;display:block}.welcome span{font-size:16px;color:#566574}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:12px}
-.tile{background:#fff;border:1px solid var(--line);border-radius:19px;padding:8px;text-decoration:none;color:var(--ink);min-height:186px}
-.tile.water{border:2px solid #e75b52;background:#fff8f6}.tile img{width:100%;height:104px;object-fit:contain;display:block;border-radius:13px;background:#fffdf9}
-.tile b{display:block;text-align:center;font-size:20px;margin-top:5px}.tile small{display:block;text-align:center;color:var(--muted);font-size:14px}
-.page{background:#fff;border:1px solid var(--line);border-radius:22px;padding:15px}
-.topline{display:grid;grid-template-columns:96px 1fr;gap:10px;align-items:center;margin-bottom:6px}
-.heroicon{width:96px;height:96px;object-fit:contain;display:block;background:#fffdf9;border-radius:16px}
-.page h1{font-size:27px;line-height:1.2;margin:0}
-.audio-btn{width:100%;border:0;background:linear-gradient(135deg,#07529d,#073c78);color:#fff;border-radius:18px;padding:9px 13px;display:flex;align-items:center;gap:10px;cursor:pointer;margin:8px 0 13px;box-shadow:0 3px 0 rgba(0,0,0,.08)}
-.audio-btn img{width:66px;height:66px;object-fit:contain;flex:0 0 auto;margin-left:-3px}
-.audio-speaker{font-size:38px;line-height:1}.audio-copy{text-align:left;line-height:1.15}.audio-copy small{display:block;font-size:14px;color:#dcecff}.audio-copy strong{font-size:24px;color:#ffd238}
-.lead{font-size:20px;margin:11px 0}
-.cards{display:grid;grid-template-columns:1fr 1fr;gap:9px}.target{border-radius:15px;padding:11px;text-align:center;border:1px solid var(--line);background:#fffaf0}
-.target b{display:block;font-size:16px}.target strong{font-size:35px;display:block;line-height:1.1}.blue{background:#eef5fb}.pink{background:#fff0f0}.green{background:#eef8ed}
-.note{border-radius:15px;padding:12px;margin-top:10px;font-size:18px}.warn{background:#fff0ec;border:2px solid #e45b50;color:#a8322a}.info{background:#eef5fb;border:1px solid #c9ddec}
-.food{border-radius:15px;padding:12px;margin:9px 0;font-size:18px}.avoid{background:#fff0ed}.limit{background:#fff7e5}.choose{background:#eef8ed}
-ul{font-size:18px;padding-left:23px;margin:9px 0}li{margin:7px 0}
-.bodymap{background:#f5fbf5;border:1px solid #cce3ca;border-radius:16px;padding:10px;margin:10px 0}.bodymap strong{font-size:19px}.sites{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:8px}.sites div{background:#fff;border-radius:11px;padding:8px;font-size:16px}
-.lifestyle{display:grid;grid-template-columns:1fr 1fr;gap:7px}.lifestyle div{background:#f6f8fa;border-radius:11px;padding:9px;text-align:center;font-size:15px}
-.nav{display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;margin-top:11px}.nav a{text-decoration:none;text-align:center;background:#173f6b;color:#fff;padding:10px 4px;border-radius:12px;font-weight:800}.nav .home{background:#ef6941}
-.status{font-size:13px;text-align:center;color:var(--muted);padding:5px}.tiny{font-size:12px;color:#7c858e;text-align:center}
-.closing{display:flex;align-items:center;gap:10px;background:#fff6e9;border:1px solid #efd8b7;border-radius:18px;padding:11px;margin-top:12px}.closing img{width:70px;height:70px;object-fit:contain}.closing b{font-size:18px}
-@media(min-width:650px){.grid{grid-template-columns:repeat(3,1fr)}.tile img{height:116px}.topline{grid-template-columns:110px 1fr}.heroicon{width:110px;height:110px}}
-</style></head><body><main class="wrap">
-<section class="hero"><h1>痛風控制｜生活大小事</h1><p>點一個主題，一次只看一件事。</p></section>
-<section class="welcome"><img src="assets/doctor_avatar.png" alt="林祐賸醫師Q版圖像"><div><b>林祐賸醫師陪您一起認識痛風</b><span>不用一次記很多，我們一個重點、一個重點慢慢看。</span></div></section>
-<nav class="grid"><a class="tile " href="uric.html"><img src="assets/home_uric.png" alt="尿酸要多少？"><b>尿酸要多少？</b><small>依情況看目標</small></a><a class="tile " href="pain.html"><img src="assets/home_pain.png" alt="痛哪裡？"><b>痛哪裡？</b><small>不只有腳趾</small></a><a class="tile " href="food.html"><img src="assets/home_food.png" alt="怎麼吃？"><b>怎麼吃？</b><small>少吃・控制・多選</small></a><a class="tile water" href="water.html"><img src="assets/home_water.png" alt="怎麼喝水？"><b>怎麼喝水？</b><small>限水者特別注意</small></a><a class="tile " href="medicine.html"><img src="assets/home_medicine.png" alt="怎麼吃藥？"><b>怎麼吃藥？</b><small>發作期與平時</small></a><a class="tile " href="doctor.html"><img src="assets/home_doctor.png" alt="何時就醫？"><b>何時就醫？</b><small>警訊＋生活管理</small></a></nav>
-<section class="closing"><img src="assets/doctor_avatar.png" alt=""><div><b>林醫師的小提醒</b><br>痛風控制得好，一樣可以安心過生活。</div></section>
-<p class="tiny">一般衛教資訊；實際治療、用藥與飲水量請依醫療團隊指示。</p></main></body></html>
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.45}
+.app{max-width:720px;margin:auto;min-height:100vh;background:#fff;border-left:1px solid #e7eef5;border-right:1px solid #e7eef5}
+.topbar{position:sticky;top:0;z-index:10;background:#f4f9ff;border-bottom:1px solid #e2edf7;padding:10px 14px;display:flex;align-items:center;justify-content:space-between}
+.topbar a{text-decoration:none;color:var(--ink);font-weight:800}.topbar .title{font-size:18px;font-weight:900}.homeicon{font-size:25px}
+main{padding:16px}
+.hero{text-align:center;padding:8px 6px 4px}.hero h1{font-size:34px;margin:0}.hero h2{font-size:23px;margin:5px 0 0;color:#7d2a1f}
+.doctor-card{display:flex;align-items:center;gap:12px;background:#eef6ff;border:1px solid #cfe0f2;border-radius:18px;padding:12px;margin:12px 0}
+.doctor-card img{width:92px;height:92px;object-fit:contain}.doctor-card b{font-size:21px}.doctor-card p{font-size:16px;margin:4px 0 0;color:#47586b}
+.section-title{text-align:center;font-size:22px;font-weight:900;margin:18px 0 10px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.tile{text-decoration:none;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:18px;padding:10px;min-height:175px;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+.tile img{width:100%;height:96px;object-fit:contain;display:block}.tile b{display:block;text-align:center;font-size:19px}.tile small{display:block;text-align:center;color:var(--muted)}
+.tip-card{display:flex;gap:10px;align-items:center;background:#fff7ea;border:1px solid #f2dcc0;border-radius:18px;padding:12px;margin:15px 0}.tip-card img{width:76px;height:76px;object-fit:contain}.tip-card b{font-size:19px}
+.page-title{display:flex;align-items:center;gap:10px;margin:4px 0 10px}.num{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:50%;background:var(--blue);color:#fff;font-weight:900;font-size:23px}.page-title h1{font-size:28px;margin:0}
+.audio{width:100%;border:0;border-radius:18px;background:linear-gradient(135deg,#0d5ea9,#093d78);color:white;padding:10px 14px;display:flex;align-items:center;gap:12px;cursor:pointer;margin:10px 0 14px}
+.audio img{width:72px;height:72px;object-fit:contain}.audio .speaker{font-size:38px}.audio .copy{text-align:left}.audio .copy small{display:block;color:#dceaff;font-size:14px}.audio .copy strong{display:block;color:#ffd43b;font-size:24px;line-height:1.1}
+.info{background:#eef6ff;border:1px solid #cfe0f2;border-radius:16px;padding:13px;font-size:18px;margin:10px 0}.warn{background:#fff1ee;border:2px solid #ef766d;color:#a32e27}
+.uric-title{text-align:center;font-size:21px;font-weight:900;margin:16px 0 10px}.targets{display:grid;grid-template-columns:1fr 1fr;gap:9px}.target{border-radius:16px;padding:12px;text-align:center;border:1px solid #e4e0d6}.target b{display:block;font-size:16px}.target strong{display:block;font-size:37px;line-height:1.05;margin:5px 0}.t1{background:#fff4d8}.t2{background:#eef3ff}.t3{background:#fff0f0}.t4{background:#edf8ec}
+.pain-hero{display:grid;grid-template-columns:1.05fr .95fr;gap:10px;align-items:start}.pain-hero .big{background:#fffaf1;border-radius:18px;padding:6px}.pain-hero .big img{width:100%;height:300px;object-fit:contain}
+.site-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.site{background:#fff;border:1px solid #d7e6da;border-radius:16px;padding:8px;text-align:center}.site img{width:100%;height:100px;object-fit:contain}.site b{display:block;color:var(--green);font-size:17px}
+.highlight{background:#f3faf2;border:1px solid #d2e7cf;border-radius:16px;padding:12px;font-size:18px;margin:10px 0}.highlight strong{color:#c52920}
+.food{border-radius:16px;padding:13px;margin:9px 0;font-size:18px}.avoid{background:#fff0ed}.limit{background:#fff8e7}.choose{background:#eef8ed}
+ul{font-size:18px;padding-left:22px}li{margin:7px 0}
+.lifestyle{display:grid;grid-template-columns:1fr 1fr;gap:8px}.lifestyle div{background:#f4f7fa;border-radius:12px;padding:10px;text-align:center}
+.navbar{position:sticky;bottom:0;background:#fff;border-top:1px solid #dde8f1;display:grid;grid-template-columns:repeat(7,1fr);gap:2px;padding:8px 6px}.navbar a{text-decoration:none;text-align:center;color:#4c5b6d;font-weight:700}.navbar .active{color:#fff;background:var(--blue);border-radius:50%;width:32px;height:32px;line-height:32px;margin:auto}.navbar .home{font-size:22px}
+.status{text-align:center;color:var(--muted);font-size:13px;padding:5px}.footnote{text-align:center;color:#7a8794;font-size:12px;padding:10px 14px 18px}
+@media(min-width:650px){.grid{grid-template-columns:repeat(3,1fr)}.tile img{height:112px}}
+</style></head><body><div class="app">
+<header class="topbar"><span>☰</span><span class="title">首頁</span><span>♥</span></header>
+<main><section class="hero"><h1>痛風控制</h1><h2>林祐賸醫師衛教 ♥</h2></section>
+<section class="doctor-card"><img src="assets/doctor_avatar.png" alt="林祐賸醫師Q版圖像"><div><b>林祐賸醫師陪您一起認識痛風</b><p>不用一次記很多，我們一個重點、一個重點慢慢看。</p></div></section>
+<div class="section-title">生活大小事，一次看懂</div><section class="grid"><a class="tile" href="uric.html"><img src="assets/home_uric.png" alt=""><b>尿酸要多少？</b><small>依情況看目標</small></a><a class="tile" href="pain.html"><img src="assets/home_pain.png" alt=""><b>痛風會痛哪裡？</b><small>不只有腳趾</small></a><a class="tile" href="food.html"><img src="assets/home_food.png" alt=""><b>怎麼吃？</b><small>少吃・控制・多選</small></a><a class="tile" href="water.html"><img src="assets/home_water.png" alt=""><b>怎麼喝水？</b><small>限水者特別注意</small></a><a class="tile" href="medicine.html"><img src="assets/home_medicine.png" alt=""><b>怎麼吃藥？</b><small>發作期與平時</small></a><a class="tile" href="doctor.html"><img src="assets/home_doctor.png" alt=""><b>何時就醫？</b><small>警訊＋生活管理</small></a></section>
+<section class="tip-card"><img src="assets/doctor_avatar.png" alt=""><div><b>林醫師的小提醒</b><br>痛風控制得好，一樣可以安心過生活。記得規律用藥、定期追蹤尿酸。</div></section></main>
+<nav class="navbar"><a class="active" href="index.html">⌂</a><a class="" href="uric.html">1</a><a class="" href="pain.html">2</a><a class="" href="food.html">3</a><a class="" href="water.html">4</a><a class="" href="medicine.html">5</a><a class="" href="doctor.html">6</a></nav><div class="footnote">一般衛教資訊；實際治療、用藥與飲水量請依個別醫療團隊指示。</div></div></body></html>
